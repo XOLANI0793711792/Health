@@ -1,0 +1,226 @@
+<html>
+<head>
+    <title>Heath Care Service</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome
+    /fontawesome-free@6.1.1/css/fontawesome.min.css">
+    <meta name="viewport" content = "width=device-width, initial-scale=1">
+
+   <script src="http://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+</head>
+<body>
+<section id="banner">
+    <img src="images/0.jpeg" class="logo">
+    <div class="banner-text">
+        <h1>Heath Care Service Delivery</h1>
+        <p>We Care About Your Life.</p>
+        <div class="banner-btn">
+            <a href = "#service"><span></span>Find Out</a>
+        </div>
+    </div>
+
+</section>
+
+<div id="sideNav">
+    <nav>
+       <ul>
+           <li><a href="#banner">HOME</a></li>
+           <li><a href="#feature">FEATURES</a></li>
+           <li><a href="#service">SERVICES</a></li>
+           <li><a href="#testimonial">TESTIMONIALS</a></li>
+           <li><a href="#footer">CONTACT</a></li>
+       </ul>
+    </nav>
+</div>
+
+    <div id="menuBtn">
+       <img src = "images/menu.png" id="menu">
+    </div>
+
+   <!--Features-->
+  <section id="feature">
+      <div class="title-text">
+          <p>FEATURES</p>
+          <h1>Why Choose Us</h1>
+      </div>
+      <div class="feature-box">
+          <div class="features">
+            <h1>Experienced staff</h1>
+              <div class="feature-desc">
+                 <div class = "features-icon">
+
+                 </div>
+                  <div class = "features-text">
+                      <p><img src="images/medical.png">Health Related Experience (HRE) is considered to be an individual’s exposure to the healthcare field, the patients and the healthcare professionals caring for them, but the exposure doesn’t permit the individual to provide healthcare, or the exposure is outside of the medical setting.  Examples of HRE include shadowing, transporting patients, patient education, clinical trial work other than DPC work itself, laboratory bench work, telephoning patients, non-nursing home health care, clerical work, electronic medical records work outside of patient care, office work.  Also, without exception, internships and other categories of educational training are considered HRE.
+
+                          UF Admissions puts great stock in applicants who take the time and effort to regularly shadow PAs for a meaningful period of time. Regardless of your exposure to Physician Assistants in your work area, you are encouraged to seek out PAs to shadow on a regular basis and in a variety of settings. Opportunities such as these will help you  to better understand the variety of PA roles in primary care, e.g., family medicine, internal medicine, general pediatrics, and some of the many  subspecialties in which PAs serve the medical community</p>
+                  </div>
+              </div>
+
+              <!--Features 2-->
+
+              <h1>Affordable Cost</h1>
+              <div class="feature-desc">
+                  <div class = "features-icon">
+
+                  </div>
+                  <div class = "features-text">
+                      <p><img src="images/medical.png">Due to the waves of Covid-19 virus that's sweeping across the country our delivery service is currently experiencing unprecedented pressure caused by a massive surge in online orders.
+
+                          Our standard delivery timelines will be impacted and extended due to the aforementioned surge. Please bear with us as we are working as fast as possible to get all orders out on time. Please accept our apologies for the delay and inconvenience.</p>
+                  </div>
+              </div>
+
+          </div>
+
+          <div class="features-img">
+              <img src="images/1.jpeg">
+          </div>
+      </div>
+  </section>
+
+<script>
+    var menuBtn = document.getElementById("menuBtn")
+    var sideNav = document.getElementById("sideNav")
+    var menu = document.getElementById("menu")
+
+    sideNav.style.right = "-250px";
+
+menuBtn.onclick = function(){
+if (sideNav.style.right == "-250px"){
+    sideNav.style.right = "0";
+    menu.src = "images/close.png";
+}
+else
+{
+    sideNav.style.right = "-250px";
+    menu.src = "images/menu.png";
+}
+
+}
+
+</script>
+
+<section id="service">
+
+    <div class="title-text">
+        <p>SERVICES</p>
+        <h1>We Provide Better</h1>
+    </div>
+
+    <dic class="service-box">
+      <div class="single-service">
+
+       </div>
+        <div class="single-service">
+            <img src="images/7.jpeg">
+            <div class="overlay"></div>
+            <div class="service-desc">
+            <h3>We Support Children</h3>
+            <hr>
+                <p>Discover everything you need to know about children’s healthcare in South Africa including the services and treatment on offer, costs, and more</p>
+            </div>
+        </div>
+        <div class="single-service">
+            <img src="images/6.jpeg">
+            <div class="overlay"></div>
+            <div class="service-desc">
+
+                <h3>Grandchildren</h3>
+                <hr>
+                <p>Grandchild Caregiving and Cognitive Health Among Grandparents in Rural South Africa</p>
+
+            </div>
+        </div>
+        <div class="single-service">
+            <img src="images/8.jpeg">
+            <div class="overlay"></div>
+            <div class="service-desc">
+                <h3>Adult</h3>
+                <hr>
+                <p>The Adult Primary Care (APC) clinical tool is a comprehensive approach to the primary care of the adult 18 years or older. APC has been developed using approved clinical policies and guidelines issued by the National Department of Health and is intended for use by all health care practitioners working at primary care level in South Africa as a clinical decision-making tool. A training package that consists of short on-site sessions using simulated case scenarios accompanies this tool.</p>
+            </div>
+        </div>
+    </dic>
+
+</section>
+
+<!--Testimonial-->
+
+<section id="testimonial">
+
+    <div class="title-text">
+        <p>TESTIMONIAL</p>
+        <h1>What Client Says</h1>
+    </div>
+    <div class="testimonial-row">
+        <div class="testimonial-col">
+            <div class="user">
+             <img src="images/clint3.jpeg">
+                <div class="user-info">
+                    <h4>Maria</h4>
+                    <small>Pretoria North</small>
+                </div>
+            </div>
+           <p>Thank you to all the nurses, doctors and first responders who have proven they are true heroes! We greatly appreciate your service, Words can’t express my gratefulness, but my heart can</p>
+        </div>
+        <div class="testimonial-col">
+            <div class="user">
+                <img src="images/clint1.jpeg">
+                <div class="user-info">
+                    <h4>Sipho Manyathi</h4>
+                    <small>@Soshanguve Block L</small>
+                </div>
+            </div>
+            <p>We are happy with their healthcare, both inside and outside of the doctor's office. Much respect and gratefulness for what you do. Praying for God’s protection as you perform your selfless acts of love and caring, Much respect and gratefulness for what you do. Praying for God’s protection as you perform your selfless acts of love and caring</p>
+        </div>
+        <div class="testimonial-col">
+            <div class="user">
+                <img src="images/clint2.jpeg">
+                <div class="user-info">
+                    <h4>Zanele Mbatha</h4>
+                    <small>@Soshanguve Block K</small>
+                </div>
+            </div>
+            <p>You guys are awesome, you’re the true heroes on the front lines. God bless you all. Thanks for all you do. We love you. Thank you for risking your lives to save ours</p>
+        </div>
+    </div>
+
+</section>
+
+
+<section id="footer">
+    <img src="images/3.jpeg" class="footer-img">
+    <div class="title-text">
+        <p>CONTACT</p>
+        <h1>Visit Us Today</h1>
+    </div>
+
+    <div class="footer-row">
+        <div class="footer-left">
+        <h1>Opening Hours</h1>
+            <p>Monday to Friday: 7AM to 5PM</p>
+            <p>Saturday - Sunday: 10AM to 3PM</p>
+        </div>
+        <div class="footer-Right">
+            <h1>Get In Touch</h1>
+            <p>@ Health Care Clinic, Soshanguve Block L <img src="images/location.jfif"></p>
+            <p>Email: healthCare@lives.ac.za <img src="images/email.png"></p>
+            <p>Call NO: +0119236735 <img src="images/call.png"></p>
+        </div>
+    </div>
+<div class="social-links">
+    <img src="images/instagram.jpeg">
+    <img src="images/twitter.png">
+    <img src="images/facebook.png">
+    <img src="images/youtube.png">
+    <p>Copyright</p>
+
+</div>
+
+
+</section>
+
+</body>
+</html>
